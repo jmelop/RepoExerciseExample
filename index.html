@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* Bloque */
+        .btn {
+            text-decoration: none;
+            background-color: white;
+            color: #888;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 10px 5px;
+        }
+
+        /* Elementos */
+        .btn__price {
+            background-color: white;
+            color: #fff;
+            padding-right: 12px;
+            padding-left: 12px;
+            margin-right: -10px;
+            font-weight: 600;
+            background-color: #333;
+            opacity: .4;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .btn__text {
+            padding: 0 10px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        /* Modificador */
+        .btn--big {
+            font-size: 28px;
+            padding: 10px;
+            font-weight: 400;
+        }
+
+        .btn--blue {
+            border-color: #0074D9;
+            color: white;
+            background-color: #0074D9;
+        }
+
+        .btn--orange {
+            border-color: #FF4136;
+            color: white;
+            background-color: #ffa600;
+        }
+
+        .btn--green {
+            border-color: #3D9970;
+            color: white;
+            background-color: #3D9970;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" class="btn">
+        <span class="btn__text">Botón estandar</span>
+    </a>
+    <a href="#" class="btn btn--orange btn--big">
+        <span class="btn__price">3€</span>
+        <span class="btn__text">Botón grande</span>
+    </a>
+    <a href=# class="btn btn--blue btn--big">
+        <span class="btn__price">4€</span>
+        <span class="btn__text">Botón grande</span>
+    </a>
+    <a href="#" class="btn btn--green btn--big">
+        <span class="btn__price">8€</span>
+        <span class="btn__text">Botón grande</span>
+    </a>
+</body>
+
+</html>
